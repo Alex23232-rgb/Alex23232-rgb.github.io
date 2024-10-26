@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #FFF;
+	font-weight: bold;
+}
+body {
+	background-image: url(escula.jpg);
+	background-repeat: repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('botones/inicio.png','botones/cancion.png','botones/conocimiento.png','botones/nuevo-mensaje.png')">
+<table width="1520" border="0" align="center" cellpadding="0" cellspacing="10">
+  <tr>
+    <td height="268" align="left" valign="top">Contactame </td>
+    <td height="268" align="right" valign="top"><img src="titulo.jpg" width="252" height="197" alt="titulo" /></td>
+  </tr>
+  <tr>
+    <td height="240" align="center" valign="middle" bgcolor="#804040">&nbsp;</td>
+    <td width="252" rowspan="2" align="center" valign="top"><a href="index.html" target="_self" onmouseover="MM_swapImage('boton-inicio','','botones/inicio.png',1)" onmouseout="MM_swapImgRestore()"><img src="botones/pagina-de-inicio (1).png" width="138" height="130" id="boton-inicio" border="0" /><br />
+      <br />
+      <br />
+    </a><a href="musica.html" target="_self" onmouseover="MM_swapImage('boton-cancion','','botones/cancion.png',1)" onmouseout="MM_swapImgRestore()"><img src="botones/musica.png" width="151" height="122" id="boton-cancion" border="0" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','botones/inicio.png',1)"><br />
+    <br />
+    <br />
+    </a><a href="escuela.html" target="_self" onmouseover="MM_swapImage('boton-escuela','','botones/conocimiento.png',1)" onmouseout="MM_swapImgRestore()"><img src="botones/capacitacion.png" width="125" height="131" id="boton-escuela" border="0" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','botones/inicio.png',1)"><br />
+    </a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','botones/inicio.png',1)"><br />
+    </a><a href="contactame.html" target="_self" onmouseover="MM_swapImage('Contactame','','botones/nuevo-mensaje.png',1)" onmouseout="MM_swapImgRestore()"><img src="botones/amigo.png" name="Contactame" width="142" height="129" id="Contactame" border="0" /></a><br />
+    <br />
+    <a href="correo.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('correo','','botones/nuevo-mensaje.png',1)"><img src="botones/nuevo-mensaje.png" width="180" height="151" id="correo" border="0" /></a><br />
+<br />
+    <br /></td>
+  </tr>
+  <tr>
+    <td height="697">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="446" colspan="2" align="center" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
